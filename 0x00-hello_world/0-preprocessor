@@ -1,0 +1,8 @@
+#!/bin/bash
+# 0-preprocessor
+# Author: Onifade Moses
+# Program: WinMingle Community C Training
+# Description: Runs the C file stored in $CFILE through the preprocessor
+
+gcc -E "$CFILE" -o c
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+# 2-assembler
+# Author: Onifade Moses
+# Program: WinMingle Community C Training
+# Description: Generates assembly code of the C file
+
+gcc -S "$CFILE" -o "${CFILE%.c}.s"
+

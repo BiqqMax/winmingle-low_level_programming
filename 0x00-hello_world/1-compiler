@@ -1,0 +1,8 @@
+#!/bin/bash
+# 1-compiler
+# Author: Onifade Moses
+# Program: WinMingle Community C Training
+# Description: Compiles C file to object file without linking
+
+gcc -c "$CFILE" -o "${CFILE%.c}.o"
+
